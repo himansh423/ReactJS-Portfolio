@@ -1,0 +1,11 @@
+.background {
+  background-image: url("../assets/frontPage.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+}

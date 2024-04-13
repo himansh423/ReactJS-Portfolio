@@ -1,0 +1,35 @@
+
+.name {
+  font-size: 72px;
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translateX(-50%);
+  font-weight: 600;
+  z-index: 3;
+  font-family: sans-serif;
+  color: #000000;
+  text-align: center;
+}
+.description {
+  font-size: 40px;
+  position: absolute;
+  top: 52%;
+  left:50%;
+  transform: translateX(-50%);
+  font-weight: 600;
+  z-index: 3;
+  font-family: sans-serif;
+  color: #000000;
+  text-align: center;
+}
+.description {
+
+  width: 600px;
+}
+.colorOfDev {
+  color:#f05354;
+}
+.colorOfsci {
+  color:#1778f2;
+}
