@@ -3,7 +3,7 @@ import styles from "./ProjectSection.module.css";
 import { Context } from "../store/Context-api";
 
 const ProjectSection = () => {
-  const { udpateStylesOver, udpateStylesLeave, styling, projectList } =
+  const { udpateStylesOver, udpateStylesLeave, styling, projectList,styling2 } =
     useContext(Context);
 
   return (
@@ -15,21 +15,20 @@ const ProjectSection = () => {
           <p className={styles.line}></p>
         </div>
         <div className={styles.container}>
-         
           {projectList.map((item) => (
-             <div className={styles.overlay}>
             <a
               key={item.id}
               href={item.link}
               className={styles.coding}
               onMouseOver={() => udpateStylesOver(item.id)}
               onMouseLeave={() => udpateStylesLeave(item.id)}
-            ><img src={item.photo} alt="" />
+            >
+              <img src={item.photo} alt="" />
+              <div className={styles.overlay} style={styling2[item.id] || {}}></div>
               <h1 className={styles.name} style={styling[item.id] || {}}>
                 {item.name}
               </h1>
             </a>
-            </div>
           ))}
         </div>
       </div>

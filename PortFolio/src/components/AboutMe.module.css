@@ -1,0 +1,191 @@
+.parent1 {
+  height: 1000px;
+  width: 100vw;
+  background-color: #fafafa;
+  position: absolute;
+  top: 96%;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container1 {
+  margin-top: 60px;
+  width: 100vw;
+  display: flex;
+  gap: 90px;
+  height: 370px;
+  justify-content: center;
+
+}
+.childContainer1 {
+  width:500px;
+}
+.tag {
+  font-family: sans-serif;
+  color: gray;
+}
+.hello {
+  margin-top: 20px;
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 30px;
+}
+.Description {
+  font-size: 18px;
+  font-family:sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+}
+.img {
+  height:288px;
+  width:432px;
+  border-radius:16px ;
+  margin-top: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.skill {
+  width: 1030px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 0px;
+  line-height: 30px;
+ 
+}
+.skillTag {
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: normal;
+}
+
+.experience {
+  width: 1030px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 0px;
+  line-height: 30px;
+}
+.experienceTag {
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: normal;
+}
+
+.approach {
+  width: 1030px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 0px;
+  line-height: 30px;
+}
+.approachTag {
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: normal;
+}
+.now {
+  
+  position: absolute;
+  top: 220%;
+  z-index: 8;
+  width: 100vw;
+  height:697px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+}
+
+
+.current {
+  display: flex;
+  justify-content: space-evenly;
+ height: 600px;
+ width: 100vw;
+ align-items: center;
+}
+
+.img2 {
+  height:400px;
+  width:600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+} 
+
+.curr {
+  font-size: 3rem;
+  margin: 30px;
+  text-align: center;
+  width: 400px;
+}
+li {
+  margin-bottom: 13px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.currBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 400px;
+}
+
+/* adding highlighting */ 
+.himanshuSpan {
+  background: linear-gradient(to right, #F64F59, #C471ED, #12C2E9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.bach {
+  color: orangered;
+}
+.data {
+  color: blue;
+}
+.html {
+  color:#e63946;
+}
+.css {
+  color:#00bbf9;
+}
+.boot {
+  color:rgb(150, 5, 218);
+}
+.java {
+  color:rgb(225, 225, 39);
+}
+.react {
+  color:#12C2E9;
+}
+.c {
+  color:red;
+}
+.dsa {
+  color:#3a0ca3;
+}
+.git {
+  font-weight: 600;
+  color:#000000;
+}
+.excel {
+  color:#0ead69;
+}
+.point {
+  color:orangered;
+}
+.node {
+  color:lightgreen;
+}
+.DB {
+  color: #0ead69;
+}
+.net {
+  color:red;
+}
+.work {
+  font-weight: 600;
+  color:#000000;
+  text-decoration: none;
+}

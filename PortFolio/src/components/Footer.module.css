@@ -38,7 +38,7 @@ p {
   color:#2f363d ;
   margin-top: 30px;
 }
-span {
+.span {
   background: linear-gradient(to right, #F64F59, #C471ED, #12C2E9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

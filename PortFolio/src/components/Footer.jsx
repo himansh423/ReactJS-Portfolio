@@ -10,14 +10,14 @@ const Footer = () => {
 
   return (
     <footer>
-      <a href="" className={styles.touch} onMouseLeave={onMouseLeaveFooter} onMouseOver={onMouseOverFooter}>👋LET'S GET IN TOUCH!</a>
+      <a href="mailto:himanshuchau423@gmail.com" className={styles.touch} onMouseLeave={onMouseLeaveFooter} onMouseOver={onMouseOverFooter}>👋LET'S GET IN TOUCH!</a>
       <div className={styles.overlay} style={intStyle}></div>
       <div className={styles.container}>
-        <a href="#"><img src={linkedin}/></a>
-        <a href="#"><img src={x}/></a>
-        <a href="#"><img src={instagram}/></a>
+        <a href="www.linkedin.com/in/himanshu-chauhan423"><img src={linkedin}/></a>
+        <a href="https://twitter.com/Himansh423"><img src={x}/></a>
+        <a href="https://insta.openinapp.co/6nrwn"><img src={instagram}/></a>
       </div>
-      <p>★ CODED WITH <span>LOVE</span> BY HIMANSHU CHAUHAN ★</p>
+      <p>★ CODED WITH <span className={styles.span}>LOVE</span> BY HIMANSHU CHAUHAN ★</p>
     </footer>
   );
 }

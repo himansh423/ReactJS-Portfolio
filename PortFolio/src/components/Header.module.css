@@ -15,7 +15,8 @@ z-index: 2;
   font-size: 25px;
   font-family: sans-serif;
   font-weight: 600;
-  
+  text-decoration: none;
+  color: #000000;
 
 }
 .name::after{
@@ -39,6 +40,8 @@ z-index: 2;
   font-family:  sans-serif;
   font-weight: 400;
   margin: 0px 20px;
+  text-decoration: none;
+  color:gray;
 }
 .link::after{
   display: block;
@@ -52,4 +55,7 @@ z-index: 2;
   transform-origin: 0% 50%;
 }
 
-
+.color {
+  color:black;
+  font-weight: 550;
+}
