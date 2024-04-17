@@ -1,0 +1,10 @@
+.greeting {
+  position: absolute;
+  z-index: 15;
+  top: 70%;
+  left:4%;
+  font-size: 3rem;
+  width: 500px;
+  color:white;
+  font-family: sans-serif;
+}

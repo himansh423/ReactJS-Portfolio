@@ -2,7 +2,7 @@
 .name {
   font-size: 72px;
   position: absolute;
-  top: 40%;
+  top: 295px;
   left:50%;
   transform: translateX(-50%);
   font-weight: 600;
@@ -14,7 +14,7 @@
 .description {
   font-size: 40px;
   position: absolute;
-  top: 52%;
+  top: 380px;
   left:50%;
   transform: translateX(-50%);
   font-weight: 600;
@@ -32,4 +32,82 @@
 }
 .colorOfsci {
   color:#1778f2;
+}
+
+/* responsiveness */
+
+/* ultra large laptop */
+@media screen and (min-width:1600px) and (max-width:2562px) {
+  .name {
+    font-size: 128px;
+    top:530px;
+  }
+  .description {
+    font-size: 71px;
+    width: 1066px;
+    top:680px;
+  }
+}
+
+/* small laptop */
+
+@media screen and (max-width:1025px) {
+  .name {
+    font-size: 51.2px;
+    top:267px;
+  }
+  .description {
+    font-size: 28.4px;
+    width: 426px;
+    top:330px
+  }
+}
+
+/* tablet */
+
+@media screen and (max-width:769px)  {
+  .name {
+    font-size: 39px;
+  }
+  .description {
+    font-size: 29px;
+    width: 500px;
+    margin-top: 0px;
+  }
+}
+/* large mobile */
+@media screen and (max-width:445px) {
+  .name {
+    font-size: 25px;
+    top: 30%;
+  }
+  .description {
+    font-size: 25px;
+    width: 350px;
+    margin-top: 0px;
+    top: 39%;
+  }
+}
+
+
+/* medium mobile */
+@media screen and (max-width:416px) {
+  .name {
+    font-size: 21px;
+    top: 30%;
+  }
+  .description {
+    font-size: 21px;
+  }
+} 
+
+/* small mobile */
+@media screen and (max-width:378px) {
+  .name {
+    font-size: 19px;
+  }
+  .description {
+    font-size: 19px;
+    width: 250px;
+  }
 }

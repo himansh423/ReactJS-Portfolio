@@ -23,7 +23,7 @@ const ProjectSection = () => {
               onMouseOver={() => udpateStylesOver(item.id)}
               onMouseLeave={() => udpateStylesLeave(item.id)}
             >
-              <img src={item.photo} alt="" />
+              <img src={item.photo} className={styles.image} alt="" />
               <div className={styles.overlay} style={styling2[item.id] || {}}></div>
               <h1 className={styles.name} style={styling[item.id] || {}}>
                 {item.name}

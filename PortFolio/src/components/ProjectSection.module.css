@@ -3,7 +3,7 @@
   width: 100vw;
   background-color: #fafafa;
   position: absolute;
-  top: 96%;
+  top: 707px;
   z-index: 4;
   display: flex;
   flex-direction: column;
@@ -34,9 +34,10 @@
   position: relative;
   padding: 0 20px;
 }
+
 .coding {
   /* background-image: url("../assets/frontPage.png"); */
-  background-size: cover;
+
   height: 434px;
   width: 600px;
   position: relative;
@@ -51,6 +52,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.image {
+  width:100%;
+  height:auto;
 }
 
 .name {
@@ -103,4 +108,210 @@
     #0000ff,
     #8b00ff
   );
+}
+
+/* responsiveness */
+
+/* ultra large laptop */
+@media screen and (min-width: 1600px) and (max-width: 2562px) {
+  .photo {
+    height: 771px;
+    width: 1066px;
+  }
+  .parent {
+    height: 3200px;
+    top:1400px;
+  }
+
+  .project {
+    height: 177px;
+    font-size: 53px;
+    padding: 0px 177px;
+  }
+  .line {
+    height: 0.9px;
+    width: 888px;
+  }
+  .container {
+    height: 2666px;
+    padding: 0 35px;
+  }
+  .coding {
+    height: 771px;
+    width: 1066px;
+    margin: 17px;
+    margin-bottom: 17px;
+    border-radius: 35px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1), 0 7px 14px rgba(0, 0, 0, 0.1),
+      0 14px 28px rgba(0, 0, 0, 0.1);
+  }
+  .name {
+    height: 152px;
+    width: 449px;
+    font-size: 62px;
+    transform: translateY(500px);
+    text-shadow: 4px 4px 7px rgba(0, 102, 204, 0.5),
+      -4px -4px 7px rgba(255, 102, 0, 0.5), 0 0 14px rgba(0, 51, 102, 0.5);
+  }
+  .coding:hover {
+    height: 800px;
+    width: 1111px;
+    margin: 9px;
+  }
+  .overlay {
+    height: 771px;
+    width: 106px;
+    margin: 17px;
+    margin-bottom: 17px;
+    border-radius: 35px;
+  }
+  .overlay:hover {
+    height: 800px;
+    width: 1111px;
+    margin: 9px;
+  }
+}
+
+/* small laptop */
+
+@media screen and (max-width:1025px) {
+  .parent {
+    height: 1280px;
+  }
+
+  .project {
+    height: 70.8px;
+    font-size: 21.2px;
+    padding: 0px 70.8px;
+  }
+  .line {
+    height: 0.4px;
+    width: 355px;
+  }
+  .container {
+    height: 1066px;
+    padding: 0 14px;
+  }
+  .coding {
+    height: 308px;
+    width: 426px;
+    margin: 7px;
+    margin-bottom: 7px;
+    border-radius: 14px;
+    box-shadow: 0 1.7px 2.8px rgba(0, 0, 0, 0.1), 0 2.8px 5.6px rgba(0, 0, 0, 0.1),
+      0 6px 11.2px rgba(0, 0, 0, 0.1);
+  }
+  .name {
+    height: 61px;
+    width: 179px;
+    font-size: 24.8px;
+  }
+  .coding:hover {
+    height: 320px;
+    width: 444.5px;
+    margin: 4px;
+  }
+  .overlay {
+    height: 309px;
+    width: 43px;
+    margin: 7px;
+    margin-bottom: 7px;
+    border-radius: 14px;
+  }
+  .overlay:hover {
+    height: 320px;
+    width: 444.4px;
+    margin: 3.6px;
+  }
+}
+
+/* tablet */
+
+@media screen and (max-width:769px){
+  .parent {
+    height: 960px;
+  }
+
+  .project {
+    height: 53.1px;
+    font-size: 15.9px;
+    padding: 0px 53.1px;
+  }
+  .line {
+    height: 0.4px;
+    width: 266px;
+  }
+  .container {
+    height: 800px;
+    padding: 0 11px;
+  }
+  .coding {
+    height: 231px;
+    width: 319px;
+    margin: 6px;
+    margin-bottom: 7px;
+    border-radius: 11px;
+  }
+  .name {
+    height: 45.75px;
+    width: 134.50px;
+    font-size: 18px;
+    transform: translate(0px);
+  }
+
+  .overlay {
+  display:none;
+  }
+}
+
+/* large mobile */
+@media screen and (max-width:445px) {
+  .parent {
+    height: 1800px;
+    top: 70%;
+  }
+  .project {
+    height: 53.1px;
+    font-size: 20px;
+    padding: 0px 40px;
+    margin-bottom: 20px;
+  }
+  .line {
+    height: 0.4px;
+    width: 100px;
+  }
+  .container {
+    height: 1800px;
+  }
+  
+}
+
+
+/* medium mobile */
+@media screen and (max-width:416px) {
+  .project {
+    height: 51.1px;
+    font-size: 17px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+  }
+  .line {
+    height: 0.4px;
+    width: 100px;
+  }
+  .container {
+    height: 1800px;
+  }
+}
+
+/* small mobile */
+@media screen and (max-width:378px) {
+  .project {
+    font-size: 15px;
+    padding: 0px 20px;
+  }
+  .line {
+    height: 0.4px;
+    width: 90px;
+  }
 }

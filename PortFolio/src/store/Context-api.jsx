@@ -1,4 +1,4 @@
-import { createContext, useReducer, useState } from "react";
+import { createContext, useEffect, useReducer, useState } from "react";
 import codevol from "../assets/codevault.jpeg";
 import playpal from "../assets/playPals.jpeg";
 import portJs from "../assets/portJs.jpeg";
@@ -34,6 +34,7 @@ const ContextProvider = ({ children }) => {
   const [styling2, udpateStyles2] = useState({});
   const [intStyle, setIntStyle] = useState({});
 
+ 
  const [tab, dispatchTab] =useReducer(setTabReducer,"home")
  const sethome = () => {
   dispatchTab({
@@ -94,7 +95,7 @@ const ContextProvider = ({ children }) => {
     udpateStyles((prevStyles) => ({
       ...prevStyles,
       [itemId]: {
-        transform: "translateY(300px)",
+        transform: "translateY(500px)",
         transition: "transform 0.3s ease-in-out",
       },
     }));
@@ -151,6 +152,13 @@ const ContextProvider = ({ children }) => {
     },
   ];
 
+  useEffect(() => {
+    const currentPath = window.location.pathname;
+    if (currentPath !== "/") {
+      window.location.pathname = "/";
+      sethome();
+    }
+  }, []);
   return (
     <Context.Provider
       value={{

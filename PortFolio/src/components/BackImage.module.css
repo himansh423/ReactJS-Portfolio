@@ -6,6 +6,39 @@
   top: 0px;
   left: 0px;
   z-index: 1;
-  height: 100vh;
+  height: 780px;
   width: 100vw;
 }
+/* ultra large laptop */
+@media screen and (min-width:1600px) and (max-width:2562px){
+  .background {
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 1500px;
+    width: 100vw;
+  }
+}
+
+
+/* large mobile */
+@media screen and (max-width:445px) {
+  .background {
+    top: 15%;
+    left: 0px;
+    z-index: 1;
+    height: 55vh;
+    background-size: 650px;
+  }
+}
+
+/* meduim mobile */
+@media screen and (max-width:416px) {
+  .background {
+    top: 13.4%;
+    left: 0px;
+    height: 55vh;
+    background-size: 650px;
+  }
+}
+

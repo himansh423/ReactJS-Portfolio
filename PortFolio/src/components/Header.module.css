@@ -19,6 +19,10 @@ z-index: 2;
   color: #000000;
 
 }
+.colorName {
+  text-decoration: none;
+  color: #000000;
+}
 .name::after{
   display: block;
   content: '';
@@ -59,3 +63,116 @@ z-index: 2;
   color:black;
   font-weight: 550;
 }
+
+/* responsiveness */ 
+
+
+/* ultra large laptop */
+
+@media screen and (min-width:1600px) and (max-width:2562px){
+  header {
+    height:197px;
+    padding: 0px 113px;
+   padding-right: 177.7777778px;
+  }
+  .name {
+    font-size: 44.44px;
+  }
+  .name::after{
+    border-bottom: solid 6px #019fb6;
+  }
+  .link {
+    font-size: 32px;
+    margin: 0px 35px;
+  }
+  .link::after{
+    border-bottom: solid 6px #019fb6;
+  }
+}
+
+
+/* small laptop */
+
+@media screen and (max-width:1025px){
+  header {
+    height:79px;
+    padding: 0px 45px;
+   padding-right: 71px;
+  }
+  .name {
+    font-size: 17px;
+  }
+  .name::after{
+    border-bottom: solid 2.4px #019fb6;
+  }
+  .link {
+    font-size: 12.8px;
+    margin: 0px 14px;
+  }
+  .link::after{
+    border-bottom: solid 2.4px #019fb6;
+  }
+}
+
+/* tablet */
+
+@media screen and (max-width:769px) {
+  header {
+    height:100px;
+    padding: 0px 34px;
+   padding-right: 54px;
+  }
+  .name {
+    font-size: 23px;
+  }
+  .name::after{
+    border-bottom: solid 1.8px #019fb6;
+  }
+  .link {
+    font-size: 15px;
+    margin: 0px 11px;
+  }
+  .link::after{
+    border-bottom: solid 1.8px #019fb6;
+  }
+}
+
+/* large mobile */
+@media screen and (max-width:445px) {
+  header {
+    height:120px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0px 0px;
+   padding-right: 0px;
+   background-color: #000000;
+  }
+  .name {
+    font-size: 23px; 
+    color: white; 
+  }
+  .link {
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight: 400;
+    margin: 0px 20px;
+    text-decoration: none;
+    color:gray;
+  }
+  .color {
+    color:white;
+    font-weight: 550;
+  }
+}
+
+/* medium mobile */
+@media screen and (max-width:416px) {
+  .name {
+    font-size: 21px; 
+  }
+  .link {
+    font-size: 17px;
+  }
+}
+
