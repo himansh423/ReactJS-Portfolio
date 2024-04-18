@@ -20,14 +20,30 @@
   }
 }
 
+/*small laptop */
+@media screen and (max-width:1200px) {
+  .background {
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 630px;
+    width: 100vw;
+  }
+}
+
+/* tablet */
+@media screen and (max-width:769px) {
+  .background {
+    height: 600px;
+  }
+}
 
 /* large mobile */
 @media screen and (max-width:445px) {
   .background {
-    top: 15%;
-    left: 0px;
-    z-index: 1;
-    height: 55vh;
+    top: 120px;
+
+    height: 332px;
     background-size: 650px;
   }
 }
@@ -35,10 +51,16 @@
 /* meduim mobile */
 @media screen and (max-width:416px) {
   .background {
-    top: 13.4%;
+    top: 120px;
     left: 0px;
     height: 55vh;
     background-size: 650px;
   }
 }
 
+/* ipad air */
+@media  (min-width: 800px) and (max-width: 850px) {
+  .background {
+    height:660px;
+  }
+}

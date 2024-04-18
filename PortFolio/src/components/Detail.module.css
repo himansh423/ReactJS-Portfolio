@@ -68,24 +68,26 @@
 @media screen and (max-width:769px)  {
   .name {
     font-size: 39px;
+    top:267px;
   }
   .description {
     font-size: 29px;
     width: 500px;
     margin-top: 0px;
+    top:330px;
   }
 }
 /* large mobile */
 @media screen and (max-width:445px) {
   .name {
     font-size: 25px;
-    top: 30%;
+    top:190px;
   }
   .description {
     font-size: 25px;
     width: 350px;
     margin-top: 0px;
-    top: 39%;
+    top: 250px;
   }
 }
 
@@ -94,10 +96,11 @@
 @media screen and (max-width:416px) {
   .name {
     font-size: 21px;
-    top: 30%;
+    top:190px;
   }
   .description {
     font-size: 21px;
+    top: 250px;
   }
 } 
 
@@ -109,5 +112,12 @@
   .description {
     font-size: 19px;
     width: 250px;
+  }
+}
+
+/* ipad air */
+@media  (min-width: 800px) and (max-width: 850px) {
+  .name {
+    font-size: 45px;
   }
 }

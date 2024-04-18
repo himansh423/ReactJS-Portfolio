@@ -177,6 +177,7 @@
 @media screen and (max-width:1025px) {
   .parent {
     height: 1280px;
+    top: 630px;
   }
 
   .project {
@@ -229,7 +230,8 @@
 
 @media screen and (max-width:769px){
   .parent {
-    height: 960px;
+    height: 1000px;
+    top:600px;
   }
 
   .project {
@@ -267,8 +269,8 @@
 /* large mobile */
 @media screen and (max-width:445px) {
   .parent {
-    height: 1800px;
-    top: 70%;
+    height: 1900px;
+    top: 452px;
   }
   .project {
     height: 53.1px;
@@ -289,6 +291,9 @@
 
 /* medium mobile */
 @media screen and (max-width:416px) {
+  .parent {
+    top: 452px;
+  }
   .project {
     height: 51.1px;
     font-size: 17px;
@@ -313,5 +318,50 @@
   .line {
     height: 0.4px;
     width: 90px;
+  }
+}
+
+/* iphone xr */
+@media screen and (min-height:850px){
+  .parent {
+   height: 2300px;
+  }
+}
+
+/* iphone 12 pro */
+
+@media screen and (min-height:820px) and (max-height:849px){
+  .parent {
+   height:2190px;
+  }
+
+}
+
+/* samsung s8+ */
+
+@media screen and (min-height:740px) {
+  .parent {
+    height:2100px;
+   }
+}
+
+/*samsung s20 ultra */
+@media screen and (min-height:914px)  {
+  .parent {
+    height:2300px;
+   }
+}
+
+/*ipad mini */
+@media screen and (min-height:1023px)  {
+  .parent {
+    height:1400px;
+   }
+}
+
+/* ipad air */
+@media  (min-width: 800px) and (max-width: 850px) {
+  .parent {
+    top: 650px;
   }
 }
