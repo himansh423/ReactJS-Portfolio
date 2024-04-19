@@ -121,3 +121,28 @@
     font-size: 45px;
   }
 }
+
+/* surface duo */
+@media screen and (min-width:539px) and (max-width:570px) {
+   .name {
+    font-size: 28px;
+   }
+
+}
+
+/* galaxy fold */
+@media screen and (min-width:270px) and (max-width:290px) {
+ .name {
+  font-size: 17px;
+  width: 200px;
+  top:200px;
+ }
+}
+
+/* Asus Zenbook fold */
+
+@media screen and (min-width:851px) and (max-width:860px) {
+  .name {
+    font-size: 40px;
+  }
+ }

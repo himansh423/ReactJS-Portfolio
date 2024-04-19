@@ -322,7 +322,7 @@
 }
 
 /* iphone xr */
-@media screen and (min-height:850px){
+@media screen and (min-width:413px) and (max-width:415px){
   .parent {
    height: 2300px;
   }
@@ -336,32 +336,125 @@
   }
 
 }
+/* iphone 14 pro */
 
+@media screen and (min-width:429px) and (max-width:431px){
+  .parent {
+   height:2240px;
+  }
+
+}
 /* samsung s8+ */
 
-@media screen and (min-height:740px) {
+@media screen and (min-height:740px) and (max-height:744px) {
   .parent {
     height:2100px;
    }
 }
 
 /*samsung s20 ultra */
-@media screen and (min-height:914px)  {
+@media screen and (min-height:914px)  and (max-height:920px){
   .parent {
     height:2300px;
    }
 }
 
 /*ipad mini */
-@media screen and (min-height:1023px)  {
+@media screen and (min-height:1023px) and (max-height:1025px)  {
   .parent {
     height:1400px;
    }
+   .name {
+    transform: translateY(0px);
+  }
 }
 
 /* ipad air */
-@media  (min-width: 800px) and (max-width: 850px) {
+@media  (min-height: 1179px) and (max-height: 1184px) {
   .parent {
     top: 650px;
+    height: 1550px;
   }
+  .container {
+    height: 700px;
+    margin-top: 20px;
+  }
+  .coding {
+    /* background-image: url("../assets/frontPage.png"); */
+  
+    height: 200px;
+    width: 300px;
+  }
+ 
+  .line {
+    width:200px;
+  }
+  .name {
+    transform: translateY(0px);
+  }
+}
+
+/* ipad pro */
+@media  (min-height: 1355px) and (max-height: 1380px) {
+  .parent {
+    height:2100px;
+  }
+  .name {
+    transform: translateY(0px);
+  }
+}
+
+
+/* surface duo */
+@media screen and (min-width:539px) and (max-width:570px) {
+   .line {
+    width:150px;
+   }
+   .parent {
+    height:2000px;
+   }
+   .container {
+    height:1600px;
+    margin-top: 20px;
+   }
+}
+
+/* galaxy fold */
+@media screen and (min-width:270px) and (max-width:290px) {
+  .line {
+    width:80px;
+  }
+  .project {
+    font-size: 10px;
+    text-align: center;
+  }
+ }
+
+ /* Asus Zenbook fold */
+
+ @media screen and (min-width:851px) and (max-width:860px) {
+  .line {
+    width:250px;
+  }
+  .parent {
+    height:1600px;
+  }
+  .container {
+    height:700px;
+    margin-top: 20px;
+  }
+  .coding {
+    height:200px;
+    width:300px;
+  }
+ }
+
+ /* nestHub max */
+@media screen and (min-height:799px) and (max-height:802px) {
+ .line{
+  width:360px;
+ }
+ .parent {
+  height: 1950px;
+ }
 }
