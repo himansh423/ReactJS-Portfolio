@@ -3,7 +3,7 @@
   width: 100vw;
   background-color: #fafafa;
   position: absolute;
-  top: 96%;
+  top: 700px;
   z-index: 4;
   display: flex;
   align-items: center;
@@ -16,10 +16,9 @@
   gap: 90px;
   height: 370px;
   justify-content: center;
-
 }
 .childContainer1 {
-  width:500px;
+  width: 500px;
 }
 .tag {
   font-family: sans-serif;
@@ -33,15 +32,17 @@
 }
 .Description {
   font-size: 18px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   line-height: 30px;
 }
 .img {
-  height:288px;
-  width:432px;
-  border-radius:16px ;
+  height: 288px;
+  width: 400px;
+  object-fit: contain;
+  border-radius: 16px;
   margin-top: 50px;
+  background-color: orangered;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
     0 8px 16px rgba(0, 0, 0, 0.1);
 }
@@ -51,7 +52,6 @@
   font-weight: 300;
   margin-top: 0px;
   line-height: 30px;
- 
 }
 .skillTag {
   margin-bottom: 20px;
@@ -85,33 +85,33 @@
   line-height: normal;
 }
 .now {
-  
   position: absolute;
-  top: 220%;
+  top: 1600px;
   z-index: 8;
   width: 100vw;
-  height:697px;
+  height: 697px;
   background-color: #fafafa;
   display: flex;
   align-items: center;
 }
 
-
 .current {
   display: flex;
   justify-content: space-evenly;
- height: 600px;
- width: 100vw;
- align-items: center;
+  height: 600px;
+  width: 100vw;
+  align-items: center;
 }
 
 .img2 {
-  height:400px;
-  width:600px;
+  height: 400px;
+  width: 600px;
+  object-fit: contain;
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
     0 8px 16px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-} 
+}
 
 .curr {
   font-size: 3rem;
@@ -131,9 +131,9 @@ li {
   height: 400px;
 }
 
-/* adding highlighting */ 
+/* adding highlighting */
 .himanshuSpan {
-  background: linear-gradient(to right, #F64F59, #C471ED, #12C2E9);
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -145,50 +145,426 @@ li {
   color: blue;
 }
 .html {
-  color:#e63946;
+  color: #e63946;
 }
 .css {
-  color:#00bbf9;
+  color: #00bbf9;
 }
 .boot {
-  color:rgb(150, 5, 218);
+  color: rgb(150, 5, 218);
 }
 .java {
-  color:rgb(225, 225, 39);
+  color: rgb(225, 225, 39);
 }
 .react {
-  color:#12C2E9;
+  color: #12c2e9;
 }
 .c {
-  color:red;
+  color: red;
 }
 .dsa {
-  color:#3a0ca3;
+  color: #3a0ca3;
 }
 .git {
   font-weight: 600;
-  color:#000000;
+  color: #000000;
 }
 .excel {
-  color:#0ead69;
+  color: #0ead69;
 }
 .point {
-  color:orangered;
+  color: orangered;
 }
 .node {
-  color:lightgreen;
+  color: lightgreen;
 }
 .DB {
   color: #0ead69;
 }
 .net {
-  color:red;
+  color: red;
 }
 .work {
   font-weight: 600;
-  color:#000000;
+  color: #000000;
   text-decoration: none;
 }
 .exp {
   color: #3a0ca3;
+}
+
+/* responsiveness */
+
+/* ultra large laptop */
+@media screen and (min-width: 1600px) and (max-width: 2562px) {
+  .parent1 {
+    height: 1777px;
+    top: 1400px;
+  }
+  .container1 {
+    margin-top: 106px;
+    gap: 160px;
+    height: 657px;
+  }
+  .childContainer1 {
+    width: 888px;
+  }
+  .hello {
+    margin-top: 35px;
+    font-size: 53px;
+  }
+  .Description {
+    font-size: 32px;
+    line-height: 53px;
+  }
+  .img {
+    height: 512px;
+    width: 768px;
+    border-radius: 29px;
+    margin-top: 88px;
+  }
+  .skill {
+    width: 1831px;
+    font-size: 32px;
+    line-height: 53px;
+  }
+  .skillTag {
+    margin-bottom: 35px;
+    font-size: 53px;
+  }
+
+  /* scbwi */
+  .experience {
+    width: 1831px;
+    font-size: 32px;
+    line-height: 53px;
+  }
+  .experienceTag {
+    margin-bottom: 35px;
+    font-size: 53px;
+  }
+
+  .approach {
+    width: 1831px;
+    font-size: 32px;
+    line-height: 53px;
+  }
+  .approachTag {
+    margin-bottom: 35px;
+    font-size: 53px;
+  }
+  .now {
+    top: 3141px;
+    height: 1239px;
+  }
+
+  .current {
+    height: 1066px;
+  }
+
+  .img2 {
+    height: 711px;
+    width: 1066px;
+    border-radius: 35px;
+  }
+
+  .curr {
+    font-size: 5.33rem;
+    margin: 53px;
+    width: 711px;
+  }
+  li {
+    margin-bottom: 23px;
+    font-size: 32px;
+  }
+  .currBox {
+    height: 711px;
+  }
+}
+
+/* small laptop */
+
+@media screen and (min-width: 1024px) and (max-width: 1024.5px) {
+  .parent1 {
+    height: 710px;
+    top: 560px;
+  }
+  .container1 {
+    margin-top: 42px;
+    gap: 43px;
+    height: 262px;
+  }
+  .childContainer1 {
+    width: 355px;
+  }
+  .hello {
+    margin-top: 14px;
+    font-size: 22px;
+  }
+  .Description {
+    font-size: 12.8px;
+    line-height: 22px;
+  }
+  .img {
+    height: 204px;
+    width: 307px;
+    border-radius: 11px;
+    margin-top: 35px;
+  }
+  .skill {
+    width: 733px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .skillTag {
+    margin-bottom: 14px;
+    font-size: 22px;
+  }
+
+  /* scbwi */
+  .experience {
+    width: 732px;
+    font-size: 12.8px;
+    line-height: 22px;
+  }
+  .experienceTag {
+    margin-bottom: 14px;
+    font-size: 22px;
+  }
+
+  .approach {
+    width: 732px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .approachTag {
+    margin-bottom: 14px;
+    font-size: 22px;
+  }
+  .now {
+    top: 1256px;
+    height: 496px;
+  }
+
+  .current {
+    height: 427px;
+  }
+
+  .img2 {
+    height: 285px;
+    width: 426px;
+    border-radius: 14px;
+  }
+
+  .curr {
+    font-size: 2.132rem;
+    margin: 22px;
+    width: 285px;
+  }
+  li {
+    margin-bottom: 9.3px;
+    font-size: 13px;
+  }
+  .currBox {
+    height: 284px;
+  }
+}
+
+/* tablet */
+
+@media screen and (max-width: 1000px) {
+  .parent1 {
+    height: 532px;
+    top: 679px;
+  }
+  .container1 {
+    margin-top: 32px;
+    gap: 33px;
+    height: 196px;
+  }
+  .childContainer1 {
+    width: 266.5px;
+  }
+  .hello {
+    margin-top: 10.5px;
+    font-size: 16.5px;
+  }
+  .Description {
+    font-size: 10px;
+    line-height: 17px;
+  }
+  .img {
+    height: 153px;
+    width: 230px;
+    border-radius: 9px;
+    margin-top: 27px;
+  }
+  .skill {
+    width: 549px;
+    font-size: 10px;
+    line-height: 16.5px;
+  }
+  .skillTag {
+    margin-bottom: 11px;
+    font-size: 17px;
+  }
+
+  /* scbwi */
+  .experience {
+    width: 550px;
+    font-size: 10px;
+    line-height: 17px;
+  }
+  .experienceTag {
+    margin-bottom: 11px;
+    font-size: 17px;
+  }
+
+  .approach {
+    width: 549px;
+    font-size: 9.75px;
+    line-height: 17px;
+  }
+  .approachTag {
+    margin-bottom: 11px;
+    font-size: 17px;
+  }
+  .now {
+    top: 1200px;
+    height: 372px;
+  }
+
+  .current {
+    height: 320px;
+  }
+
+  .img2 {
+    height: 214px;
+    width: 320px;
+    border-radius: 10.5px;
+  }
+
+  .curr {
+    font-size: 1.599rem;
+    margin: 16.5px;
+    width: 214px;
+  }
+  li {
+    margin-bottom: 7px;
+    font-size: 9.75px;
+  }
+  .currBox {
+    height: 213px;
+  }
+}
+
+/* large mobile */
+@media screen and (max-width: 600px) {
+  .parent1 {
+    height: 1200px;
+    top: 500px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container1 {
+    margin-top: 20px;
+    width: 100vw;
+    gap: 20px;
+    height: 800px;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+  }
+  .img {
+    margin: 0px;
+    height: 200px;
+    width: 300px;
+  }
+  .childContainer1 {
+    width: 300px;
+  }
+  .Description {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .skill {
+    width: 300px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .experience {
+    width: 300px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .approach {
+    width: 300px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .now {
+    top: 1800px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .current {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  li {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .currBox {
+    align-items: center;
+  }
+}
+
+/* samsung galaxy fold */
+@media screen and (min-width: 270px) and (max-width: 290px) {
+  .img {
+    margin: 0px;
+    height: 150px;
+    width: 250px;
+  }
+  .childContainer1 {
+    width: 250px;
+  }
+  .Description {
+    font-size: 11px;
+    line-height: 26px;
+  }
+  .skill {
+    width: 250px;
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .experience {
+    width: 250px;
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .approach {
+    width: 250px;
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .current {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  li {
+    font-size: 8px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .img2 {
+    width: 250px;
+  }
 }

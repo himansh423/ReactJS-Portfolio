@@ -102,7 +102,7 @@ p {
 
 /* tablet */
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:769px)  {
   footer {
     height: 163.2px;
     bottom: -1100px;
@@ -144,14 +144,14 @@ p {
 /* iphone xr */
 @media screen and (min-width:413px) and (max-width:415px){
   footer {
-   top:2470px;
+   top:2370px;
   }
 }
 /* iphone 12 pro */
 
 @media screen and (min-height:820px) and (max-height:849px){
   footer {
-   top:2430px;
+   top:2300px;
    z-index: 20;
   }
 }
@@ -160,7 +160,7 @@ p {
 
 @media screen and (min-width:429px) and (max-width:431px){
   footer {
-    top:2200px;
+    top:2280px;
   }
 
 }
@@ -172,13 +172,7 @@ p {
    }
 }
 
-/* .iphone 14 pro max */
-@media screen and (min-width:429px) and (max-width:431px){
- footer {
-  top:2380px;
-  }
 
-}
 /* samsung s8+ */
 
 @media screen and (min-height:740px) and (max-height:744px) {
@@ -211,7 +205,7 @@ p {
 /* ipad pro */
 @media  (min-height: 1355px) and (max-height: 1380px) {
   footer {
-   top:1800px ;
+   top:1850px ;
   }
 }
 

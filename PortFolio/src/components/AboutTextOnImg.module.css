@@ -1,10 +1,44 @@
 .greeting {
   position: absolute;
   z-index: 15;
-  top: 70%;
+ border-radius:10px ;
+ text-align: center;
+  top:530px ;
   left:4%;
   font-size: 3rem;
   width: 500px;
-  color:white;
+  color: white;
   font-family: sans-serif;
+}
+
+/* responsiveness */
+
+/* small laptop */
+
+@media screen and (min-width:1024px) and (max-width:1024.5px) {
+  
+    .greeting {
+  
+      top:400px ;
+      left:4%;
+    }
+}
+
+/* tablet */
+
+@media screen and (max-width:1000px) {
+  .greeting {
+  
+    top:450px ;
+    left:4%;
+  }
+} 
+
+/* large mobile */
+@media screen and (max-width:600px) {
+  .greeting {
+    font-size: 30px;
+    width: 250px;
+    top:350px
+  }
 }

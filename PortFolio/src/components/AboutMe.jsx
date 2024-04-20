@@ -1,6 +1,7 @@
 import styles from "./AboutMe.module.css";
-import img from "../assets/amaz.jpeg";
-import { Link } from "react-router-dom";
+import img from "../assets/DP.jpg";
+import img2 from "../assets/imageofme.jpg";
+import { Link } from "react-router-dom"; 
 import { useContext } from "react";
 import { Context } from "../store/Context-api";
 const AboutMe = () => {
@@ -67,7 +68,7 @@ const AboutMe = () => {
       </div>
       <div className={styles.now}>
         <div className={styles.current}>
-          <img src={img} alt="" className={styles.img2} />
+          <img src={img2} alt="" className={styles.img2} />
           <div className={styles.currBox}>
             <p className={styles.curr}>CURRENTLY</p>
 

@@ -1,12 +1,41 @@
 .backgrd {
-  
-    background-image: url("../assets/marble.png");
-    background-size: cover;
+   
+    background-image: url("../assets/backmarble.jpg");
+    background-size:cover;
     background-attachment: fixed;
+    background-position: center;
     position:absolute;
     top: 0px;
     left: 0px;
     z-index: 1;
-    height: 100vh;
+    height: 1400px;
     width: 100vw;
+    
+}
+
+
+/* responsiveness */
+
+/* ultra large laptop */
+@media screen and (min-width: 1600px) and (max-width: 2562px) {
+    .backgrd {
+        height: 1400px;
+        width: 100vw;
+    }
+}
+
+/* small laptop */
+
+@media screen and (min-width:1024px) and (max-width:1024.5px) {
+    .backgrd {
+        height: 700px;
+    }
+}
+
+/* large mobile */
+@media screen and (max-width:445px) {
+    .backgrd {
+        height: 500px;
+        width: 100vw;
+    }
 }
