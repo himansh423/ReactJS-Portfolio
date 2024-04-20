@@ -18,7 +18,7 @@ const AboutMe = () => {
               Hello! I'm{" "}
               <span className={styles.himanshuSpan}>Himanshu Chauhan</span>, a
               dedicated{" "}
-              <span className={styles.himanshuSpan}>Frontend Developer</span>,
+              <span className={styles.himanshuSpan}>Full-Stack Developer</span>,
               currently pursuing a Bachelor's degree in{" "}
               <span className={styles.bach}>Computer Applications (BCA)</span>{" "}
               with a specialization in{" "}
