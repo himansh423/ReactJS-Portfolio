@@ -4,10 +4,11 @@
  border-radius:10px ;
  text-align: center;
   top:530px ;
-  left:4%;
+  
   font-size: 3rem;
-  width: 500px;
   color: white;
+
+  width: 100vw;
   font-family: sans-serif;
 }
 
@@ -28,7 +29,7 @@
 
 @media screen and (max-width:1000px) {
   .greeting {
-  
+    color:white;
     top:450px ;
     left:4%;
   }

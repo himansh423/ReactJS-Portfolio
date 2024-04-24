@@ -1,6 +1,6 @@
 import styles from "./AboutMe.module.css";
-import img from "../assets/DP.jpg";
-import img2 from "../assets/imageofme.jpg";
+import img from "../assets/myphoto.jpg";
+import img2 from "../assets/imahephoto2.jpg";
 import { Link } from "react-router-dom"; 
 import { useContext } from "react";
 import { Context } from "../store/Context-api";
@@ -37,7 +37,9 @@ const AboutMe = () => {
           <span className={styles.css}> CSS</span> ,{" "}
           <span className={styles.boot}>Bootstrap</span>,
           <span className={styles.java}> JavaScript</span>,{" "}
-          <span className={styles.react}>ReactJS</span>,
+          <span className={styles.react}> ReactJS</span>,
+          <span className={styles.node}> Node.js</span>,
+          <span className={styles.exp}> ExpressJs</span>,
           <span className={styles.c}> C language</span> , and{" "}
           <span className={styles.dsa}>
             {" "}
@@ -73,8 +75,7 @@ const AboutMe = () => {
             <p className={styles.curr}>CURRENTLY</p>
 
             <li>
-              Learning <span className={styles.node}>Node.js</span>,
-              <span className={styles.DB}> MongoDB</span>, <span className={styles.exp}>ExpressJs</span> and other Backend
+              Learning <span className={styles.DB}> MongoDB</span> and other Backend
               Technologies.
             </li>
             <li>Working on Fitness.</li>

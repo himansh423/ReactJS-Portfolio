@@ -1,10 +1,11 @@
 .backgrd {
    
-    background-image: url("../assets/backmarble.jpg");
+    background-image: url("../assets/backgorundaboutoriginal.jpg");
     background-size:cover;
     background-attachment: fixed;
     background-position: center;
     position:absolute;
+    filter: brightness(0.3);
     top: 0px;
     left: 0px;
     z-index: 1;
