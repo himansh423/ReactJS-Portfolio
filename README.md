@@ -1,5 +1,5 @@
 ReactJS-Portfolio
-This is a personal portfolio website built using ReactJS, showcasing my skills and projects. The website is deployed and accessible at [your-domain.com]. It features three main sections: Work, About, and Resume.
+This is a personal portfolio website built using ReactJS, showcasing my skills and projects. The website is deployed and accessible at https://himanshuchauhanbyte.netlify.app/ It features three main sections: Work, About, and Resume.
 Work Section
 The Work section serves as the landing page of the website. It displays a collection of my projects, each with a brief description and a link to the live demo or source code.
 About Section
