@@ -29,4 +29,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 License
 This project is licensed under the MIT License.
 Contact
-If you have any questions or inquiries, feel free to reach out to me at [your-email@example.com].
+If you have any questions or inquiries, feel free to reach out to me at himanshuchau423@gmail.com
